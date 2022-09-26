@@ -107,7 +107,7 @@ void FourthLevel() {
     int y = 0;
     while (nextleveltransition[y] != '\0') {
         cout << nextleveltransition[y];
-        Sleep(70);
+        usleep(70);
         y++;
     }
     Sleep(2500);
@@ -116,7 +116,7 @@ void FourthLevel() {
     int z = 0;
     while (ForestText[z] != '\0') {
         cout << ForestText[z];
-        Sleep(70);
+        usleep(70);
         z++;
     }
     Sleep(1500);
@@ -175,10 +175,10 @@ void ThirdLevel() {
     int y = 0;
     while (lawnchair[y] != '\0') {
         cout << lawnchair[y];
-        Sleep(70);
+        usleep(70);
         y++;
     };
-    Sleep(2500);
+    usleep(2500);
     std::system("clear");
     string cat = "\u001b[32mWell guess what you wake up in a new place again\nIt's some sort of room, looks like a convention\u001b[0m";
     int v = 0;
