@@ -24,10 +24,10 @@ void FinalLevel() {
     int y = 0;
     while (treetext[y] != '\0') {
         cout << treetext[y];
-        usleep(70);
+        usleep(70000);
         y++;
     };
-    usleep(2500);
+    usleep(2500000);
     std::system("cls");
     string FinalUserInput;
     TryInput:
@@ -60,7 +60,7 @@ void FinalLevel() {
         int b = 0;
         while (FinalEnding[b] != '\0') {
             cout << FinalEnding[b];
-            usleep(70);
+            usleep(70000);
             b++;
         }
         usleep(2000);
@@ -69,7 +69,7 @@ void FinalLevel() {
         int z = 0;
         while (Credits[z] != '\0') {
             cout << Credits[z];
-            usleep(85);
+            usleep(85000);
             z++;
         }
         std::exit(0);
@@ -79,16 +79,16 @@ void FinalLevel() {
         int y = 0;
         while (FinalEnding[y] != '\0') {
             cout << FinalEnding[y];
-            usleep(85);
+            usleep(85000);
             y++;
         }
-        usleep(2000);
+        usleep(2000000);
         cout << "\n\u001b[32mThank you for playing my game, my heart goes out to those who enjoy this product\u001b[0m" << endl;
         string Credits = "\u001b[32mCoder: Spooky Cookies\nDirector: Spooky Cookies\nStory Writer: Spooky Cookies\nBest Supporter: Steve\nAgain, I apologize for this game taking so long to make\nHonestly, I try to work on this in my free time however, when I get home I just get unmotivated\nThank You for playing!\u001b[0m";
         int x = 0;
         while (Credits[x] != '\0') {
             cout << Credits[x];
-            usleep(85);
+            usleep(85000);
             x++;
         }
         std::exit(0);
@@ -107,19 +107,19 @@ void FourthLevel() {
     int y = 0;
     while (nextleveltransition[y] != '\0') {
         cout << nextleveltransition[y];
-        usleep(70);
+        usleep(70000);
         y++;
     }
-    Sleep(2500);
+    usleep(2500000);
     std::system("clear");
     string ForestText = "\u001b[32mYou wake up in a forest\nIt's covered in fog and looks kind of scary\u001b[0m";
     int z = 0;
     while (ForestText[z] != '\0') {
         cout << ForestText[z];
-        usleep(70);
+        usleep(70000);
         z++;
     }
-    Sleep(1500);
+    usleep(2500000);
     std::system("clear");
     string FourthUserInput;
 TryInput:
@@ -175,19 +175,19 @@ void ThirdLevel() {
     int y = 0;
     while (lawnchair[y] != '\0') {
         cout << lawnchair[y];
-        usleep(70);
+        usleep(70000);
         y++;
     };
-    usleep(2500);
+    usleep(2500000);
     std::system("clear");
     string cat = "\u001b[32mWell guess what you wake up in a new place again\nIt's some sort of room, looks like a convention\u001b[0m";
     int v = 0;
     while (cat[v] != '\0') {
         cout << cat[v];
-        usleep(70);
+        usleep(70000);
         v++;
     };
-    usleep(1500);
+    usleep(1500000);
     std::system("clear");
     string ThirdUserInput;
 TryInput:
@@ -223,7 +223,7 @@ TryInput:
         int x = 0;
         while (catending[x] != '\0') {
             cout << catending[x];
-            usleep(70);
+            usleep(70000);
             x++;
         };
     }
@@ -265,7 +265,7 @@ TryInput:
     };
     if (SecondUserInput == "open peaches") {
         cout << "Suddenly you see a clone of yourself going for the peaches as well, and now it wants to fight" << endl;
-        usleep(1500);
+        usleep(1500000);
         std::system("clear");
         int yourhealth = 100;
         int clonehealth = 100;
@@ -283,7 +283,7 @@ TryInput:
             int y = 0;
             while (lostfight[y] != '\0') {
                 cout << lostfight[y];
-                usleep(70);
+                usleep(70000);
                 y++;
 
             };
@@ -291,7 +291,7 @@ TryInput:
         }
         if (clonehealth <= 0) {
             cout << "You kicked that clones ass good going pal, +1 peaches for you" << endl;
-            usleep(3200);
+            usleep(3200000);
             SecondLevel();
         } 
         getline(cin, fightchoice);
@@ -361,7 +361,7 @@ void FirstLevel() {
             int y = 0;
             while (supermarket[y] != '\0') {
                 cout << supermarket[y];
-                usleep(70);
+                usleep(70000);
                 y++;
             };
             SecondLevel();
@@ -371,7 +371,7 @@ void FirstLevel() {
             int y = 0;
             while (HiddenText[y] != '\0') {
                 cout << HiddenText[y];
-                usleep(70);
+                usleep(70000);
                 y++;
             };
             return;
@@ -397,13 +397,13 @@ void GameStart() {
     //I really cannot be asked to use the universal map on a yes or no question sorry but its going to be a if statement for this one
     if (yesorno == "y") {
         cout << "Starting Game..." << endl;
-        usleep(1500);
+        usleep(70000);
         std::system("clear");
         string IntroText = "\u001b[32mWelcome To A Ducks Quest Of The UNIVERSE\nBy: Greg Software\nYou wake up In a new place again\nIt's some sort of space themed room\nYou can interact with the world using Describe/Push/Open and use Help if you are stuck!\u001b[0m\n";
         int x = 0;
         while (IntroText[x] != '\0') {
             cout << IntroText[x];
-            usleep(70);
+            usleep(70000);
             x++;
             
         };
@@ -439,3 +439,4 @@ int main() {
         //However, you are in a sort of space themed room
         //Glow in the dark stickers on the walls and roof
         //You can interact with the world using Describe/Push/Open/ 
+
