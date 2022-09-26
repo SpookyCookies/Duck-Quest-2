@@ -8,4 +8,9 @@ Duck Quest 2
 <p>Enjoy if you want to play again just press f9 again or press the run button</p>
 <p>I don't know how to compile sln files to linux sry pls forgive idk how</p>
 <h2> Windows Installation </h2>
-<p> Click
+<p> Click on WINDOWS EXE VERSION under releases</p>
+<p> Download Release.zip </p>
+<p> I believe windows supports zip files natively however, if not Download 7zip and extract the file </p>
+<p> run the exe inside the folder and enjoy! <p>
+<p> I will update this github if I figure out how to compile linux file I just don't feel like it right now </p>
+
