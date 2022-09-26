@@ -1,5 +1,7 @@
 # Duck-Quest-2
 Duck Quest 2 
+<h> Offical Trailer </h>
+<p> https://youtu.be/FGAnyjyKv3k <p>
 <h1> Linux User Install </h1>
 <p> Click on the CPP file and go to https://www.onlinegdb.com/online_c++_compiler</p>
 <p>once on that website remove everything in the text field quickest way is by doing CTRL+A then press backspace</p>
